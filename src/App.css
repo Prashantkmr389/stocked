@@ -1,0 +1,50 @@
+:root {
+    /* Blue */
+    --color-primary: rgb(20, 99, 255);
+    --color-primary-light: rgb(21, 121, 255);
+    --color-primary-light2: rgb(0, 179, 255);
+    --color-primary-dark: rgb(41, 63, 255);
+    --color-primary-dark2: rgb(28, 44, 177);
+
+    /* Purple */
+    --color-secondary: rgb(114, 20, 255);
+    --color-secondary-light2: rgb(246, 240, 255);
+    --color-secondary-dark: rgb(91, 16, 204);
+    --color-secondary-dark2: rgb(68, 11, 153);
+
+    /* Orange Accent */
+    --color-accent: rgb(248, 123, 69);
+    /* Yellow Accent */
+    --color-accent-2: rgb(255, 201, 51);
+
+    /* All Text Colors */
+    --color-text-1: rgb(14, 11, 61);
+    --color-text-2: rgb(41, 39, 83);
+    --color-text-3: rgb(83, 84, 121);
+    --color-text-4: rgb(108, 111, 147);
+    --color-text-5: rgb(179, 184, 208);
+    --color-text-white: #fff;
+
+    /* All BG Colors */
+    --color-bg-dark: ;
+    --color-bg-darker: rgb(23, 21, 49) ;
+    --color-bg-darkest: rgb(14, 11, 61);;
+    --color-bg-light: ;
+    --color-bg-lighter: ;
+    --color-bg-lightest: rgb(247, 249, 252);
+}
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+input:focus{
+    outline: inherit;
+}
